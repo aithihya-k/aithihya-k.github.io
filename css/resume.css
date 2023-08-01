@@ -192,8 +192,8 @@ a:hover, a:focus, a:active {
 }
 
 label {
-  width:50px;
-  height:15px;
+  width:100px;
+  height:30px;
   position: relative;
   display: block;
   background: #ebebeb;
@@ -204,8 +204,8 @@ label {
 
 label:after {
   content: "";
-  width:10px;
-  height: 13px;
+  width:20px;
+  height: 28px;
   position: absolute;
   top:10px;
   left:10px;
