@@ -192,25 +192,25 @@ a:hover, a:focus, a:active {
 }
 
 label {
-  width:300px;
-  height:150px;
+  width:40px;
+  height:15px;
   position: relative;
   display: block;
   background: #ebebeb;
-  border-radius: 100px;
+  border-radius: 5px;
   box-shadow: inset 0px 5px 15px rgba(0,0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4);
   cursor: pointer;
 }
 
 label:after {
   content: "";
-  width:300px;
-  height: 250px;
+  width:10px;
+  height: 10px;
   position: absolute;
   top:10px;
   left:10px;
   background: linear-gradient(180deg,#ffcc89,#d8860b);
-  border-radius: 100px;
+  border-radius: 5px;
   box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
 }
 input {
