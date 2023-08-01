@@ -190,3 +190,31 @@ a {
 a:hover, a:focus, a:active {
   color: rgb(54, 4, 79);
 }
+
+label {
+  width:30px;
+  height:15px;
+  position: relative;
+  display: block;
+  background: #ebebeb;
+  border-radius: 15px;
+  box-shadow: inset 0px 5px 15px rgba(0,0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4);
+  cursor: pointer;
+}
+
+label:after {
+  content: "";
+  width:25px;
+  height: 25px;
+  position: absolute;
+  top:10px;
+  left:10px;
+  background: linear-gradient(180deg,#ffcc89,#d8860b);
+  border-radius: 15px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+}
+input {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
