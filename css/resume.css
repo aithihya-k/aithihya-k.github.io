@@ -197,7 +197,7 @@ label {
   position: relative;
   display: block;
   background: #ebebeb;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: inset 0px 5px 15px rgba(0,0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4);
   cursor: pointer;
 }
