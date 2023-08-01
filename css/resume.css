@@ -244,6 +244,6 @@ label:active:after{
   transition: 0.3s;
 }
 
-input:checked + label + .background {
+darkmode-toggle:checked + label + .background {
   background:#242424;
 }
