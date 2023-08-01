@@ -235,15 +235,16 @@ label:active:after{
   width: 30px; 
 }
 
-.background {
+.darkmode-toggle {
   width:100vw;
   height: 100vh;
   background: #fff;
   z-index: -1;
   position: absolute;
   transition: 0.3s;
+  filter: invert(80%);
 }
 
-darkmode-toggle:checked + label + .background {
+/*darkmode-toggle:checked + label + .background {
   background:#242424;
-}
+}*/
