@@ -223,7 +223,7 @@ input:checked + label {
   background: #242424;
 }
 input:checked + label:after {
-  right:35px;
+  right:39px;
   transform: translateX(100%);
   background: linear-gradient(180deg,#777,#3a3a3a);
 }
@@ -232,7 +232,7 @@ label, label:after {
 }
 
 label:active:after{ 
-  width: 29px; 
+  width: 30px; 
 }
 
 .background {
