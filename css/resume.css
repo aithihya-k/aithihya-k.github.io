@@ -180,13 +180,13 @@ section.resume-section .resume-item .resume-date {
 }
 
 .text-primary {
-  color: rgb(154, 109, 176) !important;
+  color: rgb(217, 140, 255) !important;
 }
 
 a {
-  color: rgb(154, 109, 176);
+  color: rgb(217, 140, 255);
 }
 
 a:hover, a:focus, a:active {
-  color: rgb(3, 37, 70);
+  color: rgb(54, 4, 79);
 }
