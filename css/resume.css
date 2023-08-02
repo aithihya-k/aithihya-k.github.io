@@ -119,7 +119,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.099);
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
     display: -webkit-box;
@@ -159,14 +159,14 @@ section.resume-section .resume-item .resume-date {
   min-width: none;
 }
 
-/*@media (min-width: 768px) {
+@media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
   }
-}*/
+}
 
 @media (min-width: 992px) {
   section.resume-section {
