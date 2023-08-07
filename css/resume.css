@@ -195,6 +195,17 @@ footer {
   background-color:rgb(205, 140, 255);
 }
 
+#container {
+  position: relative;
+}
+
+#text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
 /*label {
   width:60px;
   height:29px;
