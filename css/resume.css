@@ -192,7 +192,7 @@ a:hover, a:focus, a:active {
 }
 
 footer {
-  color:rgb(205, 140, 255);
+  background-color:rgb(205, 140, 255);
 }
 
 /*label {
