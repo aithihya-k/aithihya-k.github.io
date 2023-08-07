@@ -191,6 +191,10 @@ a:hover, a:focus, a:active {
   color: rgb(54, 4, 79);
 }
 
+footer {
+  color:rgb(205, 140, 255);
+}
+
 /*label {
   width:60px;
   height:29px;
